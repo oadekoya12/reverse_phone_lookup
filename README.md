@@ -83,4 +83,4 @@ docker-compose down
 ```
 
 ## License
-[Link Text](LICENSE)
+[Link to the file.](LICENSE)
