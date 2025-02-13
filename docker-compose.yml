@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: fastapi_app
+    environment:
+      - NUMAPI_KEY=${NUMAPI_KEY}  # Ensures it's read from the host
+    ports:
+      - "9606:8000"
+    restart: always
